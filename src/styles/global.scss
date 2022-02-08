@@ -1,0 +1,41 @@
+@import "variable.scss";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+.color-title {
+  color: $title;
+}
+
+.color-title-light {
+  color: $title-light;
+}
+
+.color-red {
+  color: $red;
+}
+
+.bg-red {
+  background-color: $red;
+}
+
+.bg-site-primary {
+  background-color: $site-primary;
+}
+
+.font-family-bebas {
+  font-family: "Bebas Neue", cursive;
+}
+
+.font-family-indie {
+  font-family: "Indie Flower", cursive;
+}
+
+.parallax-blend::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, $site-primary, transparent);
+  z-index: 300;
+}

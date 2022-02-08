@@ -1,0 +1,79 @@
+{
+  "nav-header": ["Chintan Mehta"],
+  "job-front-title": {
+    "full-job-title": ["Front", "End", "DEVELOPER"],
+    "about": {
+      "about-text": "ABOouT",
+      "about-description": "I  am a developer based in India focused on creating interactive digital experiences on the web, working with brands and industry leaders such as MARIOTT, EXXON MOBIL, ILLUMINA, and HERO amongst others to achieve this."
+    }
+  },
+  "featured-projects": {
+    "featured-projects-text": "featured-projects",
+    "featured-projects-array": [
+      {
+        "project-name": "something-something.com",
+        "project-category": "creative/something",
+        "project-link": "www.somelink.com"
+      },
+      {
+        "project-name": "something-something.com",
+        "project-category": "creative/something",
+        "project-link": "www.somelink.com"
+      }
+    ]
+  },
+  "community-contributions": {
+    "community-contributions-title": "community contriBUTIONS",
+    "community-contributions-descrition": "I have worked on some resources and tools; mostly for designers and developers like myself, you should checkout",
+    "community-contributions-links": [
+      "something",
+      "something 2",
+      "and something"
+    ]
+  },
+  "tech-stack": {
+    "tech-stack-title": "Stack",
+    "tech-stack-description": "I’m familiar with technologies such as JavaScript, Typescript, React, Nextjs, Gatsbyjs, Vue.js, Nuxtjs, CSS, SCSS, Greensock, Framer Motion, CSS-in-JS, Firebase, CraftCMS, Prismic."
+  },
+  "awards-recognition": {
+    "awards-recognition-title": "AwardS   X    RECOgnition",
+    "awards-recognition-list": [
+      {
+        "award-title": "1X The Spotlight",
+        "award-company": "DENTsu"
+      },
+      {
+        "award-title": "2X Applause Award",
+        "award-company": "Deloitte"
+      },
+      {
+        "award-title": "1X Spot Award",
+        "award-company": "Deloitte"
+      }
+    ]
+  },
+  "ice-breaker": {
+    "ice-breaker-title": "icebreaKER",
+    "ice-breaker-desription": "I listen to Electronic and Alt music all the time, here’s my PROFILE on Spotify. I like traveling and good food (work with me so I can fund this). GET IN TOUCH to know more about me."
+  },
+  "contact-me": {
+    "email": "mchintan24@gmail.com",
+    "social-media-handles": [
+      {
+        "social-media-text": "TWITter",
+        "social-media-link": "www.teottwe.com"
+      },
+      {
+        "social-media-text": "TWITter",
+        "social-media-link": "www.teottwe.com"
+      },
+      {
+        "social-media-text": "TWITter",
+        "social-media-link": "www.teottwe.com"
+      }
+    ],
+    "contact-me-text": "Got a question, proposal or project or want to work together on something? Feel free to reach out.",
+    "contact-me-banner-text": "SAy HELLO - wannabe starting something lets TALK?",
+    "resume-link": "drive.google.com"
+  }
+}

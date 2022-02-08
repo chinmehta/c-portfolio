@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import "./styles/variable.scss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif, "Bebas Neue", cursive;
+  box-sizing: border-box;
+  font-size: 18px;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.app {
+  background-color: $site-primary;
+  height: 100vh;
+}
+.gradient-class {
+  height: 90vh;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  // background-image: linear-gradient(to right, $title-light 0%, $title 100%);
+}
+
+@layer components {
+  .text-16xl {
+    font-size: 15rem;
+  }
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
