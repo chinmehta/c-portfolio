@@ -19,21 +19,24 @@ const ContactUs = (props) => {
           alt="lets meet image"
         />
       </div>
-      <div className="col-12 col-md-6 d-flex flex-column h-full ">
+      <div className="col-12 col-md-6 d-flex flex-column h-min ">
         <div className="d-none d-md-flex align-self-start font-family-bebas text-5xl">
           {props.items["contact-me-text"]}
         </div>
         <div
-          className="email align-self-center text-uppercase text-2xl md:text-4xl py-5 cursor-pointer"
+          className="email align-self-center text-uppercase text-2xl md:text-3xl py-5 cursor-pointer"
           onClick={copyDataToClipBoard}
         >
           {props.items["email"]}
         </div>
         <ul className="social-links align-self-end m-0 p-0 d-flex col-12 justify-center flex-wrap">
           {props.items["social-media-handles"].map((element, index) => (
-            <li className="col-12 col-md-4" key={index}>
+            <li
+              className="col-12 col-md-4 m-1 px-5 py-2 border-solid border-2 transition-all duration-500 border-black rounded-full"
+              key={index}
+            >
               <a
-                className="m-1 px-5 py-2 w-full font-family-bebas text-uppercase border-solid border-2 transition-all duration-500 border-black rounded-full no-underline"
+                className="w-full font-family-bebas text-uppercase no-underline tracking-widest"
                 href={element["social-media-link"]}
                 target="_blank"
               >
