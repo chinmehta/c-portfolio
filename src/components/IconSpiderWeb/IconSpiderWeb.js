@@ -51,7 +51,7 @@ export default function IconSpiderWeb(props) {
     faMobileScreenButton,
   ];
   const ICON_TRAIL = (
-    <div className="opacity-20 z-10 -top-20 -left-20 position-relative w-full d-flex p-1 whitespace-nowrap text-black rotate-30">
+    <div className="opacity-10 z-10 -top-20 -left-20 position-relative w-full d-flex p-1 whitespace-nowrap text-black rotate-30">
       {ICONS_NAMES.map((element, index) => (
         <FontAwesomeIcon
           key={index}
@@ -70,7 +70,9 @@ export default function IconSpiderWeb(props) {
   return (
     <div className="icon-spider-web-container overflow-hidden bg-site-primary w-full h-screen pt-20 p-10 relative d-flex flex-column">
       {list}
-      <div className="position-absolute top-0 left-0">{props.children}</div>
+      <div className="position-absolute top-0 left-0 w-full h-full">
+        {props.children}
+      </div>
     </div>
   );
 }

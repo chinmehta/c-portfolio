@@ -1,9 +1,9 @@
 {
   "nav-header": ["Chintan Mehta"],
   "job-front-title": {
-    "full-job-title": ["Front", "End", "DEVELOPER"],
+    "full-job-title": ["Web", "DEVELOPER"],
     "about": {
-      "about-text": "ABOouT",
+      "about-text": "ABOUT",
       "about-description": "I  am a developer based in India focused on creating interactive digital experiences on the web, working with brands and industry leaders such as MARIOTT, EXXON MOBIL, ILLUMINA, and HERO amongst others to achieve this."
     }
   },
@@ -60,20 +60,15 @@
     "email": "mchintan24@gmail.com",
     "social-media-handles": [
       {
-        "social-media-text": "TWITter",
-        "social-media-link": "www.teottwe.com"
+        "social-media-text": "Linkedin",
+        "social-media-link": "https://www.linkedin.com/in/chinmehta/"
       },
       {
-        "social-media-text": "TWITter",
-        "social-media-link": "www.teottwe.com"
-      },
-      {
-        "social-media-text": "TWITter",
-        "social-media-link": "www.teottwe.com"
+        "social-media-text": "Resume",
+        "social-media-link": "https://goo.gl/BpQuQs"
       }
     ],
     "contact-me-text": "Got a question, proposal or project or want to work together on something? Feel free to reach out.",
-    "contact-me-banner-text": "SAy HELLO - wannabe starting something lets TALK?",
-    "resume-link": "drive.google.com"
+    "contact-me-banner-text": "SAy HELLO - wannabe starting something lets TALK?"
   }
 }

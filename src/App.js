@@ -8,6 +8,8 @@ import proud_coder from "./images/proud_coder.svg";
 import Parallax from "./components/Parallax/Parallax";
 import IconSpiderWeb from "./components/IconSpiderWeb/IconSpiderWeb";
 import Skills from "./components/Skills/Skills";
+import ContactUs from "./components/ContactUs/ContactUs";
+// import ContactMe from "./components/ContactMe/ContactMe";
 
 class App extends React.Component {
   constructor(props) {
@@ -42,13 +44,15 @@ class App extends React.Component {
           items={data["job-front-title"]}
           scrollEvent={this.state.scrollState}
         />
-        <IconSpiderWeb>
-          {/* <AwardsRecognition items={data["awards-recognition"]} /> */}
-          <Skills />
-        </IconSpiderWeb>
+        {/* <AwardsRecognition items={data["awards-recognition"]} /> */}
+        {/* <IconSpiderWeb>
+          <Skills items={data["tech-stack"]} />
+        </IconSpiderWeb> */}
         <Skills />
 
         <AwardsRecognition items={data["awards-recognition"]} />
+        <ContactUs items={data["contact-me"]} />
+        {/* <ContactMe items={data["contact-me"]} /> */}
         {/* <MainTitle
           items={data["job-front-title"]}
           scrollEvent={this.state.scrollState}
