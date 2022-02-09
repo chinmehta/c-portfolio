@@ -9,6 +9,10 @@ module.exports = {
         white: "#fff",
         "primary-blue": "#627bc0",
         "site-primary": "#111",
+        pink: "#fdcbf1",
+        purple: "#e6dee9",
+        mypeach: "#f5efef",
+        mypeachy: "#feada6",
       },
       letterSpacing: {
         1: "0em",

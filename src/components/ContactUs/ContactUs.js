@@ -1,14 +1,22 @@
 import React from "react";
 import undraw_interview from "../../images/undraw_interview.svg";
+import Alert from "@mui/material/Alert";
+import Button from "@mui/material/Button";
 
 const ContactUs = (props) => {
+  const alertRef = React.createRef();
+
   const copyDataToClipBoard = (data) => {
-    console.log(data);
+    // console.log(data.target.innerText);
     navigator.clipboard.writeText(data.target.innerText);
+    alertRef.current.classList.remove("d-none");
+    setTimeout(() => {
+      alertRef.current.classList.add("d-none");
+    }, 1500);
   };
 
   return (
-    <div className="contact-us-container d-flex bg-gradient-to-r from-purple-500 to-pink-500 w-full justify-content-center p-4 h-screen relative flex-row text-center flex-wrap align-items-center">
+    <div className="contact-us-container bg-gradient-to-r from-pink to-purple d-flex w-full justify-content-center p-4 h-screen relative flex-row text-center flex-wrap align-items-center">
       <div className="d-flex d-md-none col-12 font-family-bebas text-3xl">
         {props.items["contact-me-text"]}
       </div>
@@ -32,20 +40,34 @@ const ContactUs = (props) => {
         <ul className="social-links align-self-end m-0 p-0 d-flex col-12 justify-center flex-wrap">
           {props.items["social-media-handles"].map((element, index) => (
             <li
-              className="col-12 col-md-4 m-1 px-5 py-2 border-solid border-2 transition-all duration-500 border-black rounded-full"
+              className="m-1 col-12 col-md-4 transition-all duration-500  rounded-full"
               key={index}
             >
-              <a
-                className="w-full font-family-bebas text-uppercase no-underline tracking-widest"
+              <Button
+                variant="outlined"
                 href={element["social-media-link"]}
                 target="_blank"
               >
+                {/* <a
+                  className="w-full color-site-primary font-family-bebas text-uppercase no-underline tracking-widest"
+                  href={element["social-media-link"]}
+                  target="_blank"
+                > */}
                 {element["social-media-text"]}
-              </a>
+                {/* </a> */}
+              </Button>
             </li>
           ))}
         </ul>
       </div>
+      <Alert
+        ref={alertRef}
+        className="position-absolute bottom-10 left-50 d-none"
+        severity="success"
+        color="info"
+      >
+        COPIED
+      </Alert>
       {/* hello {props.items["email"]} */}
     </div>
   );

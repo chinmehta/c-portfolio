@@ -8,15 +8,33 @@
     }
   },
   "featured-projects": {
-    "featured-projects-text": "featured-projects",
+    "featured-projects-title": "Clients",
     "featured-projects-array": [
       {
-        "project-name": "something-something.com",
+        "project-name": "Exxon Mobil",
+        "project-desciption": "Single handedly provided estimates and delivered entire sprint stories. Additionally, implemented interactive maps using leaflet JS for order tracking. Tech Stack: AngularJS, Javascript, Jquery, Sass, Bootstrap, Karma, Jasmine.",
+        "project-designation": "Asscociate Analyst - 2018",
         "project-category": "creative/something",
         "project-link": "www.somelink.com"
       },
       {
-        "project-name": "something-something.com",
+        "project-name": "ILLUMINA",
+        "project-designation": "Asscociate Analyst - 2019",
+        "project-desciption": "Front End Web Developer for Software download manager with the client, a Health Care and Life Sciences company based out of San Diego, California. Tech Stack: Angular 10, Typescript, HTML, SCSS, Jasmine, Karma, Material.",
+        "project-category": "creative/something",
+        "project-link": "www.somelink.com"
+      },
+      {
+        "project-name": "MARRIOTT",
+        "project-desciption": "Transforming Digital Presence of Mariott by imolementing new features and transforming old legacy codebase from Jquery into ReactJs. Tech Stack: HTML, Javascript, Jquery, Sass, Bootstrap, ReactJs",
+        "project-designation": "Analyst - 2020",
+        "project-category": "creative/something",
+        "project-link": "www.somelink.com"
+      },
+      {
+        "project-name": "HERO",
+        "project-desciption": "Transforming the digital marketing capability, strategy and unifying the SFCC technology platform across the 3 brands acquired by Hero. Worked on customizing the SFCC platform from design Frontend to Backend functionality of PDP, PLP, Cart, Checkout, Customer and Order modules. Tech Stack: ISML, Javascript, Jquery, Sass, Bootstrap, SFCC.",
+        "project-designation": "Senior Software Engineer - 2020",
         "project-category": "creative/something",
         "project-link": "www.somelink.com"
       }
@@ -54,7 +72,7 @@
   },
   "ice-breaker": {
     "ice-breaker-title": "icebreaKER",
-    "ice-breaker-desription": "I listen to Electronic and Alt music all the time, here’s my PROFILE on Spotify. I like traveling and good food (work with me so I can fund this). GET IN TOUCH to know more about me."
+    "ice-breaker-desription": "I listen to Lofi amd Electronic music all the time. I love dancing, dogs, skating and sports(MAYBE). I like traveling and good food (work with me so I can fund this). GET IN TOUCH to know more about me."
   },
   "contact-me": {
     "email": "mchintan24@gmail.com",

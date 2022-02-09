@@ -9,6 +9,8 @@ import Parallax from "./components/Parallax/Parallax";
 import IconSpiderWeb from "./components/IconSpiderWeb/IconSpiderWeb";
 import Skills from "./components/Skills/Skills";
 import ContactUs from "./components/ContactUs/ContactUs";
+import MyProjects from "./components/MyProjects/MyProjects";
+import IceBreaker from "./components/IceBreaker/IceBreaker";
 // import ContactMe from "./components/ContactMe/ContactMe";
 
 class App extends React.Component {
@@ -53,6 +55,8 @@ class App extends React.Component {
         {/* <Skills /> */}
 
         <AwardsRecognition items={data["awards-recognition"]} />
+        <MyProjects items={data["featured-projects"]} />
+        <IceBreaker items={data["ice-breaker"]} />
         <ContactUs items={data["contact-me"]} />
         {/* <ContactMe items={data["contact-me"]} /> */}
         {/* <MainTitle
