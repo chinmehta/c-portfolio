@@ -34,6 +34,8 @@ class App extends React.Component {
     window.removeEventListener("scroll", this.handleScroll);
   }
 
+  // shouldComponentUpdate()
+
   render() {
     return (
       <div className="app">
@@ -45,10 +47,10 @@ class App extends React.Component {
           scrollEvent={this.state.scrollState}
         />
         {/* <AwardsRecognition items={data["awards-recognition"]} /> */}
-        {/* <IconSpiderWeb>
+        <IconSpiderWeb>
           <Skills items={data["tech-stack"]} />
-        </IconSpiderWeb> */}
-        <Skills />
+        </IconSpiderWeb>
+        {/* <Skills /> */}
 
         <AwardsRecognition items={data["awards-recognition"]} />
         <ContactUs items={data["contact-me"]} />

@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "chinmehta-5fc90"
-  }
+    "default": "c-meta",
+    "production": "c-meta"
+  },
+  "targets": {}
 }

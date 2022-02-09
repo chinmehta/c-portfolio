@@ -51,12 +51,13 @@ export default function IconSpiderWeb(props) {
     faMobileScreenButton,
   ];
   const ICON_TRAIL = (
-    <div className="opacity-10 z-10 -top-20 -left-20 position-relative w-full d-flex p-1 whitespace-nowrap text-black rotate-30">
+    <div className="opacity-10 z-10 -top-20 -left-20 position-relative w-full d-flex p-1 whitespace-nowrap text-black">
       {ICONS_NAMES.map((element, index) => (
         <FontAwesomeIcon
           key={index}
-          className="text-6xl p-1  hover:text-primary-blue transition-all duration-1000 hover:transition-none"
-          icon={ICONS_NAMES[Math.round(Math.random() * 20)]}
+          className="text-6xl p-2 rotate-30 hover:text-primary-blue transition-all duration-1000 hover:transition-none"
+          // icon={ICONS_NAMES[Math.round(Math.random() * 20)]}
+          icon={ICONS_NAMES[index]}
         />
       ))}
     </div>
