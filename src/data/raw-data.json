@@ -26,7 +26,7 @@
       },
       {
         "project-name": "MARRIOTT",
-        "project-desciption": "Transforming Digital Presence of Mariott by imolementing new features and transforming old legacy codebase from Jquery into ReactJs. Tech Stack: HTML, Javascript, Jquery, Sass, Bootstrap, ReactJs",
+        "project-desciption": "Transforming Digital Presence of Mariott by imolementing new features and transforming old legacy codebase from Jquery into ReactJs. Tech Stack: HTML, Javascript, Jquery, Sass, Bootstrap, ReactJs, HandlebarJs.",
         "project-designation": "Analyst - 2020",
         "project-category": "creative/something",
         "project-link": "www.somelink.com"
@@ -51,7 +51,7 @@
   },
   "tech-stack": {
     "tech-stack-title": "Stack",
-    "tech-stack-description": "I’m familiar with technologies such as JavaScript, Typescript, React, Nextjs, Gatsbyjs, Vue.js, Nuxtjs, CSS, SCSS, Greensock, Framer Motion, CSS-in-JS, Firebase, CraftCMS, Prismic."
+    "tech-stack-description": "I’m familiar with technologies such as JavaScript, TypeScript, ReactJs, Angular / AngularJS, D3 JS, ChartJs ,Bootstrap, Tailwind CSS, HTML/ISML, Git, LeafletJS, JQuery, Java, Spring Framework, Spring Boot, SFCC, Karma, Jasmine, SCSS / LESS / CSS, Handlebar Js    "
   },
   "awards-recognition": {
     "awards-recognition-title": "AwardS   X    RECOgnition",
