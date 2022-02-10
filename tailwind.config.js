@@ -13,6 +13,8 @@ module.exports = {
         purple: "#e6dee9",
         mypeach: "#f5efef",
         mypeachy: "#feada6",
+        lightgreygradient: "#2b5876",
+        darkgreygradient: "#4e4376",
       },
       letterSpacing: {
         1: "0em",

@@ -1,18 +1,31 @@
 import React from "react";
-
+import { TagCloud } from "react-tagcloud";
 import "../../styles/global.scss";
 
 const Skills = (props) => {
+  const skillsArray = [];
+
+  props.items["tech-stack-array"].map((element, index) => {
+    let obj = {
+      value: element,
+      count: Math.round(Math.random() * 90),
+    };
+    skillsArray.push(obj);
+  });
+
   return (
-    <div className="skills-container overflow-hidden w-full h-screen p-10 md:px-72 relative d-flex items-center justify-center  bg-gradient-to-r from-cyan-500 to-blue-500">
-      <p className="text-capitalize color-site-primary font-light tracking-wider text-justify p-0 h-min md:w-6/12 ">
-        <span className="text-uppercase text-lg h-min color-site-primary pr-2 font-black">
+    <div className="skills-container overflow-hidden w-full p-10  relative d-flex items-center justify-center  bg-gradient-to-r from-darkgreygradient to-lightgreygradient">
+      <div className="text-capitalize font-light tracking-wider text-justify p-0 h-min md:w-10/12 ">
+        <div className="text-uppercase color-site-primary text-9xl lg:text-16xl h-min font-family-bebas pr-2">
           {props.items["tech-stack-title"]}
-        </span>
-        {props.items["tech-stack-description"]}
-      </p>
+        </div>
+        <div className="tag-cloud">
+          <TagCloud minSize={15} maxSize={45} tags={skillsArray} />
+        </div>
+        {/* {props.items["tech-stack-description"]} */}
+      </div>
     </div>
   );
 };
 
-export default Skills;
+export default React.memo(Skills);

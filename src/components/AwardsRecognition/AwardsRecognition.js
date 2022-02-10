@@ -40,4 +40,4 @@ const AwardsRecognition = (props) => {
   );
 };
 
-export default AwardsRecognition;
+export default React.memo(AwardsRecognition);

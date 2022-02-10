@@ -25,7 +25,7 @@ import {
   faMobileScreenButton,
 } from "@fortawesome/free-solid-svg-icons";
 
-export default function IconSpiderWeb(props) {
+function IconSpiderWeb(props) {
   const NO_OF_TRAILS = 15;
   const ICONS_NAMES = [
     faCoffee,
@@ -98,3 +98,5 @@ export default function IconSpiderWeb(props) {
     </div>
   );
 }
+
+export default React.memo(IconSpiderWeb);

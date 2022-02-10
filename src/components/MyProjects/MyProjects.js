@@ -37,4 +37,4 @@ const MyProjects = (props) => {
   );
 };
 
-export default MyProjects;
+export default React.memo(MyProjects);

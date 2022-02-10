@@ -95,4 +95,4 @@ const MainTitle = (props) => {
   );
 };
 
-export default MainTitle;
+export default React.memo(MainTitle);

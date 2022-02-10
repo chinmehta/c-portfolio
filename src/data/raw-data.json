@@ -51,7 +51,33 @@
   },
   "tech-stack": {
     "tech-stack-title": "Stack",
-    "tech-stack-description": "I’m familiar with technologies such as JavaScript, TypeScript, ReactJs, Angular / AngularJS, D3 JS, ChartJs ,Bootstrap, Tailwind CSS, HTML/ISML, Git, LeafletJS, JQuery, Java, Spring Framework, Spring Boot, SFCC, Karma, Jasmine, SCSS / LESS / CSS, Handlebar Js    "
+    "tech-stack-array": [
+      "JavaScript",
+      "TypeScript",
+      "ReactJs",
+      "Angular",
+      "AngularJS",
+      "D3.js",
+      "ChartJs",
+      "Bootstrap",
+      "Tailwind CSS",
+      "HTML",
+      "ISML",
+      "Git",
+      "LeafletJS",
+      "JQuery",
+      "Java",
+      "Spring Framework",
+      "Spring Boot",
+      "SFCC",
+      "Karma",
+      "Jasmine",
+      "SCSS",
+      "LESS",
+      "CSS",
+      "Handlebar Js",
+      "Firebase"
+    ]
   },
   "awards-recognition": {
     "awards-recognition-title": "AwardS   X    RECOgnition",

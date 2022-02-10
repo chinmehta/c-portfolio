@@ -13,4 +13,4 @@ const IceBreaker = (props) => {
   );
 };
 
-export default IceBreaker;
+export default React.memo(IceBreaker);
