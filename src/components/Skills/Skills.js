@@ -8,7 +8,7 @@ const Skills = (props) => {
   props.items["tech-stack-array"].map((element, index) => {
     let obj = {
       value: element,
-      count: Math.round(Math.random() * 90),
+      count: Math.round((Math.random() * 100) / 2),
     };
     skillsArray.push(obj);
   });
@@ -16,7 +16,7 @@ const Skills = (props) => {
   return (
     <div className="skills-container overflow-hidden w-full p-10  relative d-flex items-center justify-center  bg-gradient-to-r from-darkgreygradient to-lightgreygradient">
       <div className="text-capitalize font-light tracking-wider text-justify p-0 h-min md:w-10/12 ">
-        <div className="text-uppercase color-site-primary text-9xl lg:text-16xl h-min font-family-bebas pr-2">
+        <div className="text-uppercase text-white color-white text-9xl lg:text-16xl h-min font-family-bebas pr-2">
           {props.items["tech-stack-title"]}
         </div>
         <div className="tag-cloud">
