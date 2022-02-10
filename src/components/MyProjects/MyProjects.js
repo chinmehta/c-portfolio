@@ -19,7 +19,7 @@ const MyProjects = (props) => {
             }
             key={index}
           >
-            <div class="card-body">
+            <div className="card-body">
               <div className="project-name text-uppercase text-xl font-bold">
                 {element["project-name"]}
               </div>

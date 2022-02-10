@@ -16,7 +16,10 @@ const ContactUs = (props) => {
   };
 
   return (
-    <div className="contact-us-container bg-gradient-to-r from-pink to-purple d-flex w-full justify-content-center p-4 h-screen relative flex-row text-center flex-wrap align-items-center">
+    <div
+      id="contactUsSection"
+      className="contact-us-container bg-gradient-to-r from-pink to-purple d-flex w-full justify-content-center p-4 h-screen relative flex-row text-center flex-wrap align-items-center"
+    >
       <div className="d-flex d-md-none col-12 font-family-bebas text-3xl">
         {props.items["contact-me-text"]}
       </div>

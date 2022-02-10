@@ -48,25 +48,14 @@ class App extends React.Component {
           items={data["job-front-title"]}
           scrollEvent={this.state.scrollState}
         />
-        {/* <AwardsRecognition items={data["awards-recognition"]} /> */}
         <IconSpiderWeb>
           <Skills items={data["tech-stack"]} />
         </IconSpiderWeb>
-        {/* <Skills /> */}
 
         <AwardsRecognition items={data["awards-recognition"]} />
         <MyProjects items={data["featured-projects"]} />
         <IceBreaker items={data["ice-breaker"]} />
         <ContactUs items={data["contact-me"]} />
-        {/* <ContactMe items={data["contact-me"]} /> */}
-        {/* <MainTitle
-          items={data["job-front-title"]}
-          scrollEvent={this.state.scrollState}
-        />
-        <MainTitle
-          items={data["job-front-title"]}
-          scrollEvent={this.state.scrollState}
-        /> */}
       </div>
     );
   }

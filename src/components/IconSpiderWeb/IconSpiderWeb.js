@@ -49,13 +49,34 @@ export default function IconSpiderWeb(props) {
     faHeart,
     faHourglass,
     faMobileScreenButton,
+    faCoffee,
+    faAddressBook,
+    faBath,
+    faShower,
+    faThermometerHalf,
+    faBalanceScale,
+    faBatteryHalf,
+    faBell,
+    faBicycle,
+    faBolt,
+    faBullhorn,
+    faCommenting,
+    faComments,
+    faEnvelope,
+    faGift,
+    faWineGlass,
+    faGlobe,
+    faGraduationCap,
+    faHeart,
+    faHourglass,
+    faMobileScreenButton,
   ];
   const ICON_TRAIL = (
     <div className="opacity-10 z-10 -top-20 -left-20 position-relative w-full d-flex p-1 whitespace-nowrap text-black">
       {ICONS_NAMES.map((element, index) => (
         <FontAwesomeIcon
           key={index}
-          className="text-6xl p-2 rotate-30 hover:text-primary-blue transition-all duration-1000 hover:transition-none"
+          className="text-3xl p-2 rotate-30 hover:text-primary-blue transition-all duration-1000 hover:transition-none"
           // icon={ICONS_NAMES[Math.round(Math.random() * 20)]}
           icon={ICONS_NAMES[index]}
         />

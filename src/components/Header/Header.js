@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/global.scss";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Header = (props) => {
   return (
@@ -22,9 +23,12 @@ const Header = (props) => {
           className="col-6 col-md-2 d-flex color-title-light justify-content-end ml-auto"
           key="contact-me-button"
         >
-          <button className="mx-4 px-4 py-1 text-uppercase border-solid border-2 transition-all duration-500 border-title-light rounded-full hover:bg-red hover:text-black hover:border-red">
+          <Link
+            className="no-underline color-title-light cursor-pointer mx-4 px-4 py-1 text-uppercase border-solid border-2 transition-all duration-500 border-title-light rounded-full hover:bg-red hover:text-black hover:border-red"
+            to="contactUsSection"
+          >
             contact
-          </button>
+          </Link>
         </li>
       </ul>
     </div>
